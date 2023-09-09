@@ -7,7 +7,7 @@ const Board = ({ cardList, players }) => {
         <Grid container columnSpacing={1} rowSpacing={4}>
             {cardList.map((card, idx) => {
                 return (
-                    <Grid item key={idx} xs={6}>
+                    <Grid item key={idx} xs={3}>
                         <CardContainer card={card} />
                     </Grid>
                 );
