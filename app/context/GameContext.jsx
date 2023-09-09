@@ -75,8 +75,7 @@ const GameContextComponent = ({ children, id }) => {
 
     const generateCards = (items) => {
         const duplicatedItems = [...items, ...items];
-        const list = duplicatedItems;
-        //const list = shuffle(duplicatedItems);
+        const list = shuffle(duplicatedItems);
         return list.map((listItem, idx) => {
             return {
                 id: idx + 1,
