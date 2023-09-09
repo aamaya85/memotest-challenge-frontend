@@ -1,12 +1,14 @@
-Memotest Challenge
+**Memotest Challenge**
 This project is a Challenge for Hey Tutor!
 
-After clone the repo run following commands:
-$ npm install
-
-Up the memotest-challenge-backend!
+Firt step: clone and setup **memotest-challenge-backend!**
 It should running on [http://127.0.0.1:8000]
 
+After clone the repo run following commands:
+
+    $ npm install
+
 Start the app:
-$ npm run dev
+
+    $ npm run dev
 
